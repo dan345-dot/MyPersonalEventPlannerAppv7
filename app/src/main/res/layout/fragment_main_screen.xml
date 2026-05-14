@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#82C9E9"
+    tools:context=".MainScreen">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="365dp"
+        android:layout_height="382dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="274dp" />
+    <Button
+        android:id="@+id/DeleteButton"
+        android:layout_width="290dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#CE1C1C"
+        android:text="Delete" />
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_width="290dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="116dp"
+        android:backgroundTint="#D17418"
+        android:text="Add Event" />
+
+    <Button
+        android:id="@+id/LoadButton"
+        android:layout_width="290dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="172dp"
+        android:backgroundTint="#28D91C"
+        android:text="Load Event" />
+    <TextView
+        android:id="@+id/MainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Personal Event Planner App"
+        android:textSize="30sp" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/NavBar"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="670dp"
+        android:background="#82C9E9" />
+</FrameLayout>
