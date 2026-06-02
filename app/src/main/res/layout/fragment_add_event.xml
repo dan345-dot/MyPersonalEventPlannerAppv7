@@ -16,7 +16,7 @@
         android:textSize="50sp" />
 
     <EditText
-        android:id="@+id/TitleText"
+        android:id="@+id/Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="98dp"
@@ -74,7 +74,7 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/LocationText"
+        android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="98dp"
@@ -86,7 +86,7 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/TimeText"
+        android:id="@+id/time"
         android:layout_width="232dp"
         android:layout_height="49dp"
         android:layout_marginStart="98dp"
@@ -110,7 +110,7 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/DateText"
+        android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="95dp"
@@ -126,7 +126,7 @@
     <Button
         android:id="@+id/AEUEButton"
         android:layout_width="260dp"
-        android:layout_height="46dp"
+        android:layout_height="50dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="650dp"
         android:layout_marginEnd="300dp"
@@ -135,14 +135,14 @@
         android:text="Add Event / Update Event" />
 
     <EditText
-        android:id="@+id/CategoryText"
+        android:id="@+id/category"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginStart="95dp"
         android:layout_marginTop="220dp"
         android:layout_marginEnd="107dp"
         android:layout_marginBottom="15dp"
-        android:height="50dp"
+        android:height="52dp"
         android:ems="10"
         android:inputType="text"
         android:text="Category" />

@@ -39,6 +39,8 @@ android {
 dependencies {
     implementation(libs.fragment)
     implementation(libs.room.common.jvm)
+    implementation(libs.recyclerview)
+    implementation(libs.room3.runtime)
     val nav_version = "2.9.7"
     implementation("androidx.navigation:navigation-compose:${nav_version}")
     implementation("androidx.navigation:navigation-fragment:${nav_version}")

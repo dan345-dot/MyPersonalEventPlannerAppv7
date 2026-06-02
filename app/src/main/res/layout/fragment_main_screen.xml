@@ -6,14 +6,6 @@
     android:background="#82C9E9"
     tools:context=".MainScreen">
 
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="365dp"
-        android:layout_height="382dp"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="274dp" />
     <Button
         android:id="@+id/DeleteButton"
         android:layout_width="290dp"
@@ -45,18 +37,27 @@
         android:layout_marginBottom="172dp"
         android:backgroundTint="#28D91C"
         android:text="Load Event" />
+
     <TextView
         android:id="@+id/MainTitle"
         android:layout_width="match_parent"
-        android:layout_height="52dp"
+        android:layout_height="53dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
+        android:rotationX="-2"
         android:text="Personal Event Planner App"
         android:textSize="30sp" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/NavBar"
         android:layout_width="match_parent"
         android:layout_height="62dp"
         android:layout_marginTop="670dp"
         android:background="#82C9E9" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Recycler list"
+        android:layout_width="410dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp" />
 </FrameLayout>
